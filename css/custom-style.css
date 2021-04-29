@@ -50,7 +50,7 @@ a.text-primary:hover{
 	font-family: 'Roboto', sans-serif;
 }
 .zoom-logo{
-	width: 675px;
+	width: auto;
 }
 .btn{
 	font-family: 'Roboto', sans-serif;
