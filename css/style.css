@@ -330,6 +330,43 @@ img {
   align-items: center;
 }
 
+@media (min-width: 576px) {
+  .img {
+    max-width: 506px;
+  }
+}
+
+
+@media (min-width: 812px) {
+  .img {
+    max-width: 714px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img {
+    max-width: 1140px;
+  }
+}
+
+.startup-logo {
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+@media (min-width: 576px) {
+  .startup-funding .img {
+    max-height: 26px;
+  }
+}
+
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -625,6 +662,7 @@ mark,
   border-radius: 0;
   max-width: 100%;
   height: auto;
+  align-items: center
 }
 
 .figure {
@@ -692,7 +730,7 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 98%;
   }
 }
 
@@ -2052,6 +2090,8 @@ pre code {
   height: 100vh;
   width: auto;
 }
+
+
 
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -16932,6 +16972,8 @@ header .header-description {
   }
 }
 
+
+
 @media (max-width: 767.98px) {
   header .header-description {
     font-size: 20px;
@@ -18148,6 +18190,31 @@ display: inline-block;
   /* margin-bottom: 50px; */
 }
 
+@media (max-width: 575.98px) {
+  .showcase {
+    padding-left: -80px;
+    padding-right: 0px;
+    margin-left: -170px;
+    width:auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .startup-image {
+    justify-content: center;
+    margin-right: -150px;
+    margin-left: -25px;
+    margin-top: 25px;
+    width:88%
+  }
+}
+
+.img-what-is{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 .tagline-container {
   height: 236px;
@@ -18645,6 +18712,11 @@ section.advisors-list .advisor .advisor-photo::after {
 .advisors-header {
 align-content: center;
 }
+
+.advisors .img {
+  display: flex;
+  justify-content: center;;
+}
 section.speaker-detail {
   padding: 50px 0 80px;
 }
@@ -18937,6 +19009,23 @@ a:hover,a:focus{
   border: 1px solid #6e8898;
   color: #000;
 }
+
+@media (max-width: 591.98px) {
+  #accordion .panel-title {
+  font-size: 7.5px;
+  letter-spacing: 10px;
+  line-height: 20px;
+  padding: 10px 0px 10px 0px;
+  width: 150%;
+  }
+}
+
+@media (max-width:591.98px) {
+  #schedule .nav-tabs a {
+    font-size:10px;
+  }
+}
+
 #accordion .panel-body{
   padding: 10px 30px 10px 30px;
   margin-left: 40px;
@@ -18946,8 +19035,17 @@ a:hover,a:focus{
   color: #6f6f6f;
   line-height: 28px;
   letter-spacing: 1px;
+  
 }
 
+@media (max-width: 591.98px) {
+  #accordion .panel-body {
+  font-size: 7.5px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  padding: 10px 0px 10px 0px;
+  }
+}
 
 @media (max-width: 991.98px) {
   section.testimonials blockquote {
@@ -18987,6 +19085,12 @@ section.testimonials .testimonial-author {
   border-bottom: #000000;
   border-bottom-width: 10px;
   
+}
+
+@media (max-width: 591.98px){
+  .section-startup{
+    margin:0px;
+  }
 }
 
 section.testimonials .testimonial-image {
