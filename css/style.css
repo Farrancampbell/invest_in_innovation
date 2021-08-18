@@ -696,7 +696,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 812px) {
   .container {
     max-width: 720px;
   }
@@ -2050,6 +2050,7 @@ pre code {
 
 #index {
   height: 100vh;
+  width: auto;
 }
 
 @media (max-width: 1199.98px) {
@@ -4933,6 +4934,10 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(25, 25, 25, 0.125);
   border-radius: 0;
+}
+
+.card-class{
+  margin-right: 50px;
 }
 
 .card > hr {
@@ -18981,6 +18986,7 @@ section.testimonials .testimonial-author {
 .section-about {
   border-bottom: #000000;
   border-bottom-width: 10px;
+  
 }
 
 section.testimonials .testimonial-image {
