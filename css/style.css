@@ -662,9 +662,15 @@ mark,
   border-radius: 0;
   max-width: 100%;
   height: auto;
-  align-items: center
+  align-items: center;
+  justify-content: center;
 }
 
+.thumbnail {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
 .figure {
   display: inline-block;
 }
@@ -18713,9 +18719,8 @@ section.advisors-list .advisor .advisor-photo::after {
 align-content: center;
 }
 
-.advisors .img {
-  display: flex;
-  justify-content: center;;
+.advisors {
+  align-items: center;
 }
 section.speaker-detail {
   padding: 50px 0 80px;
